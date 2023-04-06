@@ -3542,7 +3542,7 @@ input, select, textarea {
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
 		/* background: #312450; */
-		background: #12232E;
+		background: #213a4b;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3947,3 +3947,18 @@ input, select, textarea {
 			}
 
 		}
+
+	section .video-section {
+		display: flex;
+		flex-direction: column;
+	}
+
+	section .section-div-video{
+		display: flex;
+		flex-direction: column;
+		align-items: end;
+	}
+
+	section .section-link{
+		align-self: end;
+	}
