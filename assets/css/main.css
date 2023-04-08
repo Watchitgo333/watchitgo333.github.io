@@ -3904,9 +3904,13 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#sidebar {
-				display: none;
+				padding-left: 10%;
+				/* display: none; */
 			}
 
+			/* #hamburger{
+				background-image: url("images/hamburger.svg");
+			} */
 		}
 
 /* Intro */
@@ -3953,7 +3957,7 @@ input, select, textarea {
 		flex-direction: column;
 	}
 
-	section .section-div-video{
+	section .section-div-video {
 		display: flex;
 		flex-direction: column;
 		align-items: end;
